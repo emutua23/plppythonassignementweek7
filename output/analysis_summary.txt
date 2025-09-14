@@ -1,0 +1,90 @@
+
+MEDICAL INSURANCE DATASET - ANALYSIS SUMMARY REPORT
+==================================================
+Generated on: 2025-09-14 14:56:01
+
+DATASET OVERVIEW
+================
+Shape: 2,772 rows × 7 columns
+Columns: age, sex, bmi, children, smoker, region, charges
+Memory Usage: 151.7 KB
+Missing Values: 0
+
+KEY FINDINGS
+============
+
+1. STRONGEST PREDICTORS OF INSURANCE CHARGES:
+   • Smoking Status: Correlation = 0.7887833491419153
+   • Age: Correlation = 0.2986236656293628
+   • BMI: Correlation = 0.19984604873978876
+
+2. SMOKING IMPACT:
+   • Smokers pay approximately 3.8x more than non-smokers
+   • Average smoker charges: $32,223
+   • Average non-smoker charges: $8,418
+   • Difference: $23,805
+
+3. DEMOGRAPHIC INSIGHTS:
+   • Age range: 18-64 years (mean: 39.1 years)
+   • Gender distribution: 50.7% female, 49.3% male  
+   • Smoking rate: 20.4% overall (23.6% female, 17.0% male)
+   • Regional distribution: Relatively balanced across 4 regions
+
+4. BMI INSIGHTS:
+   • Average BMI: 30.7 kg/m² (indicating overweight population)
+   • BMI range: 16.0 - 53.1 kg/m²
+   • Higher BMI associated with higher charges, especially for smokers
+
+5. STATISTICAL SIGNIFICANCE:
+   • Smoking status difference: Highly significant (p < 0.001)
+   • Gender difference: Significant (females pay ~$1,500 more)
+   • Regional differences: Present but smaller impact
+   • Age correlation: Steady increase (~$263 per year)
+
+BUSINESS RECOMMENDATIONS
+========================
+
+RISK ASSESSMENT PRIORITY:
+1. Smoking status (highest impact - 4x multiplier)
+2. Age (steady increase with age)
+3. BMI (moderate impact, interacts with smoking)
+4. Gender (small difference)
+5. Region (minimal impact)
+6. Number of children (minimal impact)
+
+PRICING STRATEGY:
+• Implement significant smoking surcharge (300-400% premium)
+• Age-based tiered pricing structure
+• BMI-based adjustments for high-risk categories (BMI > 30)
+• Consider regional cost-of-living adjustments
+• Gender-neutral pricing with appropriate risk adjustments
+
+VISUALIZATION HIGHLIGHTS
+========================
+• Line Chart: Shows clear upward trend of charges with age
+• Bar Chart: Regional variations in average charges
+• Histogram: BMI distribution shows population health profile
+• Scatter Plot: BMI vs charges relationship, differentiated by smoking
+• Correlation Heatmap: Visual representation of variable relationships
+• Box Plots: Distribution differences across categorical variables
+
+TECHNICAL NOTES
+===============
+• Data Quality: High (minimal missing values, consistent formats)
+• Sample Size: Large enough for reliable statistical inference (n=2,772)
+• Data Coverage: Comprehensive across age groups, regions, and demographics
+• Analysis Methods: Descriptive statistics, correlation analysis, group comparisons
+
+CONCLUSION
+==========
+The analysis reveals that smoking status is by far the strongest predictor of 
+insurance charges, followed by age and BMI. The dataset provides robust evidence 
+for risk-based pricing strategies, with smoking status being the primary factor 
+for premium determination. Regional and demographic factors show secondary importance.
+
+This comprehensive analysis provides a solid foundation for data-driven insurance
+pricing decisions and risk assessment strategies.
+
+================================================================================
+End of Report
+================================================================================

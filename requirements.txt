@@ -1,0 +1,21 @@
+# Medical Insurance Dataset Analysis - Python Dependencies
+# ==================================================
+# 
+# Core data manipulation and analysis
+pandas>=1.3.0
+numpy>=1.21.0
+
+# Statistical analysis
+scipy>=1.7.0
+
+# Data visualization
+matplotlib>=3.4.0
+seaborn>=0.11.0
+
+# Data downloading
+requests>=2.25.0
+
+# Optional: Enhanced functionality
+# jupyter>=1.0.0        # For Jupyter notebook support
+# plotly>=5.0.0         # For interactive visualizations
+# scikit-learn>=1.0.0   # For machine learning extensions
